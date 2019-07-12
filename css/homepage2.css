@@ -1,0 +1,184 @@
+@font-face {
+    font-family: code;
+    src: url(CODE\ Light.otf);
+  }
+body {
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .baru {
+      position: relative;
+      bottom: 10px;
+  }
+  .baru a{
+      
+    transition: color 0.5s ease;
+    text-decoration: none;
+    font-family: calibri light;
+}
+  .semua{
+margin-left: 100px;
+
+  }
+
+
+a:visited { text-decoration: none; color :#6f7275; }
+  .baru a:hover{
+color: #4CAF50;
+  }
+
+  .header {
+    background-color: white;
+    
+    padding: 5px;
+  }
+  .isi{
+    margin-left: 80px;
+    display: inline-block;
+    padding-bottom: 30px;
+height: 20px;
+  }
+  .isi a{
+      margin-left: 20px;
+      font-size: 15px;
+  }
+  #navbar {
+    overflow: hidden;
+    background-color: #343b41;
+    z-index: 3;
+    
+  }
+  .bungkusnavbar{
+      margin-left: 13.5%;
+  }
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    font-family: code;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    
+    transition: color 0.5s ease;
+  }
+  
+  #navbar a:hover {
+    color: #4CAF50;
+    
+  }
+  
+  #navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+
+  .beritabaru{
+      height: 100%;
+      position: relative;
+      bottom: 40px;
+      height: 450px;
+      z-index: -1;
+
+
+      background: url(sawah.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      
+  }
+  .transparan{
+      height: 40px;
+      background-color:black;
+      position: relative;
+      top: 400px;
+      opacity: 0.6;
+  }
+  .tulisan {
+      color: white;
+      font-family: calibri;
+      position: relative;
+      top: 365px;
+      font-size: 20px;
+      margin-left: 200px;
+      margin-right: 200px;
+  }
+
+.news{
+    height: 300px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+}
+.judulterbaru{
+    font-size: 200px;
+}
+.pencet{
+    background-color: #e3e3e3;
+   border-radius: 600px 20px;
+    border: none;   
+    position: relative;
+    top: 5px;
+    
+    transition: color 0.5s ease;
+    
+    transition: background-color 0.5s ease;
+}
+.pencet:hover{
+    background-color: #f7b00a;
+    color: white;
+    cursor: pointer;
+}
+
+.kotakberita{
+    font-size: 50%;
+    display: inline-block;
+    background-color: white;
+    
+    border-bottom: 3px solid #f7b00a;
+    height: 70%;
+    width: 48%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.judulkotak{
+    color: white;
+    position: relative;
+    top: 80%;
+    left: 10%;
+    right: 10%;
+    z-index: 1;
+}
+.kotakcover{
+    height: 30%;
+    background-color: black;
+    position: relative;
+    top: 60%;
+    opacity: 0.5;
+}.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
