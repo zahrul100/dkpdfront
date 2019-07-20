@@ -1,7 +1,20 @@
+.judul{
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+
 .kontenberita{
-    height: 1000px;
     margin-left: 10%;
     margin-right: 10%;
-    width: 80%;
+    height: 780px;
+    width: 85%;
     background-color: whitesmoke;
+}
+
+.isi{
+    text-align: justify;
+    font-family: 'Segoe UI';
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
 }
