@@ -4,11 +4,9 @@
 }
 
 .kontenberita{
+    background-image: url('/cover.png');
     margin-left: 10%;
     margin-right: 10%;
-    height: 780px;
-    width: 85%;
-    background-color: whitesmoke;
 }
 
 .isi{
